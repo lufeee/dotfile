@@ -3,7 +3,7 @@
  
 export ZSH=$HOME/.oh-my-zsh
  
-# たとえば oh-my-zsh テーマカラーを robbyrussell から変更する場合
+# oh-my-zsh themes
 ZSH_THEME="candy"
  
 # oh my zsh で利用するプラグインを指定
@@ -14,11 +14,10 @@ source $ZSH/oh-my-zsh.sh
 
 ##### zsh の設定 #####
  
-# すっきりしたプロンプト表示 (不要ならコメントアウト)
+# My prompt
 PROMPT='
-[%F{magenta}%B%n%b%f@%F{blue}%m%f] %{$fg_bold[cyan]%}$(git_prompt_info)  
+[%F{magenta}%B%n%b%f@%F{blue}%B%d%b%f] %{$fg_bold[cyan]%}$(git_prompt_info)  
  (｡◕ˇдˇ◕｡)/# '
-RPROMPT='[%F{green}%B%d%b%f]'
 
 # zsh-completions の設定。コマンド補完機能
 autoload -U compinit && compinit -u

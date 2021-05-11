@@ -50,6 +50,8 @@ if len(s:removed_plugins) > 0
   call dein#recache_runtimepath()
 endif
 " }}}
+"
+call dein#add('kana/vim-operator-replace')
 
 
 set nocompatible
@@ -100,3 +102,6 @@ set completeopt=menuone,noinsert
 
 inoremap <tab> <C-p>
 inoremap <silent> jj <ESC>
+
+" vim-operator-replace
+map R <plug>(operator-replace)

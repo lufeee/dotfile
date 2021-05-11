@@ -1,7 +1,4 @@
 [[plugins]]
-repo = 'fatih/vim-go'
-
-[[plugins]]
 repo = 'junegunn/fzf'
 build_on = '''
 ./install -all
@@ -39,12 +36,6 @@ repo = 'mattn/vim-lsp-settings'
 [[plugins]]
 repo = 'justmao945/vim-clang'
 
-#git
-[[plugins]]
-repo = 'tpope/vim-fugitive'
-[[plugins]]
-repo = 'airblade/vim-gitgutter'
-
 [[plugins]]
 repo = 'andymass/vim-matchup'
 [[plugins]]
@@ -66,5 +57,22 @@ repo = 'itchyny/vim-cursorword'
 [[plugins]]
 repo = 'thinca/vim-quickrun'
 
+
+
+# Markdown
+[[plugins]]
+repo = 'instant-markdown/vim-instant-markdown'
+
+# git
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+
 # Rust
+[[plugins]]
 repo = 'rust-lang/rust.vim'
+
+# Go
+[[plugins]]
+repo = 'fatih/vim-go'
