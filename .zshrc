@@ -17,7 +17,7 @@ source $ZSH/oh-my-zsh.sh
 # My prompt
 PROMPT='
 [%F{magenta}%B%n%b%f@%F{blue}%B%d%b%f] %{$fg_bold[cyan]%}$(git_prompt_info)  
- (｡◕ˇдˇ◕｡)/# '
+(｀・ω・´)/ # '
 
 # zsh-completions の設定。コマンド補完機能
 autoload -U compinit && compinit -u
@@ -64,6 +64,7 @@ fadd() {
     fi
   done
 }
+
  
 # エイリアス
 alias his='history'
