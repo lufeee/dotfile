@@ -84,6 +84,7 @@ alias ber='bundle exec ruby'
 alias pip='pip3'
 alias ssudo='sudo apt update && sudo apt upgrade'
 alias c='clear'
+alias :q='exit'
 
 # 色を使用出来るようにする
 autoload -Uz colors
@@ -148,3 +149,4 @@ setopt extended_glob
 # ここではデフォルトのセットから / を抜いたものにしている
 # ※ たとえば Ctrl-W でカーソル前の1単語を削除したとき / までで削除が止まる
 WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
+export PATH=$PATH:/flutter/bin
