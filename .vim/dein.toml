@@ -1,4 +1,8 @@
 [[plugins]]
+repo = 'ghifarit53/tokyonight-vim'
+
+
+[[plugins]]
 repo = 'junegunn/fzf'
 build_on = '''
 ./install -all

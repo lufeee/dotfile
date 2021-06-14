@@ -64,6 +64,7 @@ fadd() {
     fi
   done
 }
+zlipd() (printf "\x1f\x8b\x08\x00\x00\x00\x00\x00" |cat - $@ |gzip -dc)
 
  
 # エイリアス

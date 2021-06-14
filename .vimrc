@@ -2,6 +2,8 @@ set encoding=utf-8
 scriptencoding utf-8
 set helplang=ja
 
+
+
 "dein.vim settings {{{
 " install dir {{{
 let s:dein_dir = expand('~/.cache/dein')
@@ -105,3 +107,13 @@ inoremap <silent> jj <ESC>
 
 " vim-operator-replace
 map R <plug>(operator-replace)
+
+" skin
+set termguicolors
+let g:tokyonight_style = 'storm' " available: night, storm
+let g:tokyonight_transparent_background = 1
+let g:tokyonight_menu_selection_background = 'red'
+let g:tokyonight_enable_italic = 1
+let g:tokyonight_current_word = 'bold'
+
+colorscheme tokyonight
